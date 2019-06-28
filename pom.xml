@@ -1,28 +1,27 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kohsuke</groupId>
+    <groupId>org.cultrarius</groupId>
     <artifactId>pom</artifactId>
-    <version>14</version>
+    <version>1</version>
   </parent>
 
-  <artifactId>wordnet-random-name</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <artifactId>random-name-generator</artifactId>
+  <version>1.0-SNAPSHOT</version>
 
-  <name>WordNet Random Name Generator</name>
-  <url>http://github.com/kohsuke/wordnet-random-name/</url>
+  <name>Random Name Generator</name>
+  <url>http://github.com/Cultrarius/wordnet-random-name/</url>
 
   <scm>
-    <connection>scm:git:git@github.com/kohsuke/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/kohsuke/${project.artifactId}.git</developerConnection>
-    <url>http://${project.artifactId}.kohsuke.org/</url>
+    <connection>scm:git:git@github.com/Cultrarius/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Cultrarius/${project.artifactId}.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
     <site>
       <id>github-pages</id>
-      <url>gitsite:git@github.com/kohsuke/${project.artifactId}.git</url>
+      <url>gitsite:git@github.com/Cultrarius/${project.artifactId}.git</url>
     </site>
   </distributionManagement>
 
